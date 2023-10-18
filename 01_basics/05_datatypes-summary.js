@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive(assign Value)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id == anotherId); //false
 
 // const bigNumber = 3456543576654356754n
 
-// Reference (Non primitive)
+//Non primitive (assign Reference)
 
 // Array, Objects, Functions
 
@@ -31,3 +31,25 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let name1 = "Amit Roy";
+let name2 = "Sanjib Ghosh";
+
+name2 = "Tripti Bikash"
+
+console.log(name1); //Amit Roy
+console.log(name2); //Tripti Bikash
+
+let user1 = {
+    email: "user&google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1;
+
+user2.email = "amit@google.com";
+
+console.log(user1); //{ email: 'amit@google.com', upi: 'user@ybl' }
+console.log(user2); //{ email: 'amit@google.com', upi: 'user@ybl' }
