@@ -14,8 +14,8 @@ myArr.shift()
 
 // console.log(myArr);
 
-console.log(myArr.includes(9));
-console.log(myArr.indexOf(3));
+console.log(myArr.includes(9)); //false
+console.log(myArr.indexOf(3)); // 3
 
 
 // slice, splice
