@@ -1,3 +1,9 @@
+/*
+In JavaScript, there is no functional difference between using double quotes (") and single quotes (')
+to define strings. Both can be used interchangeably, and the choice of which to use is largely a
+matter of personal preference or coding style.
+*/
+
 const name = "hitesh"
 const repoCount = 50
 
